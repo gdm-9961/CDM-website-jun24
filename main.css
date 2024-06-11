@@ -1,3 +1,43 @@
 body {
-color:#F00;
+  background-color: #274B6E;
+  color: #C38705;
+  font-family:Georgia, Times, TimesNewRoman, "Times New Roman", serif;
+}
+
+h1{
+  text-align:center;
+  text-shadow:1px 1px #132537;
+}
+h1.trim {
+  text-align-last:justify;
+  margin-left:15px;
+  width:1250px;
+}
+h1.home{
+  font-size:32px;
+  width:1280px; 
+  margin-left:0px;
+}
+
+a:link {color:#C38705}
+a:visited {color:#C38705}
+a:hover {color:#D94D3B}
+
+#spacer {
+  width:1280px;
+  border-right:4px double;
+  padding:0 10px;
+}
+.spacerinfo {
+  font-size:12px;
+  width:1280px;
+}
+
+fade {color:#5477b3}
+
+li {
+	list-style-type:none;
+	font-size: 1.17em;
+	font-weight:bold;
+	margin: .5em 0;
 }
