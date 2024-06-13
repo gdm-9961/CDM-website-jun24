@@ -2,6 +2,7 @@ window.addEventListener("load",setup);
 
 async function setup(){
 		songpaths = (await rawData("songpaths.txt")).split("\r\n");
+		caption = document.getElementById("songdata");
 		player = document.getElementById("player");
 		console.log(songpaths);
 		albums = document.getElementsByClassName('cover');
@@ -16,6 +17,8 @@ async function rawData(fileIn = ""){
 }
 
 function setSong(path){
-	player.src = path;
-	if (player.style.display == "none") player.style.display = "block";
+	console.log(path*2);
+	songdata.textContent = songpaths[path*2];
+	player.src = songpaths[path*2+1];
+	if (player.style.display == "none") player.style.display = "inline-block";
 }
