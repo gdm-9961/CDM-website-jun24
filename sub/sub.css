@@ -12,16 +12,19 @@ li{
    width:195px;
    vertical-align:top;
 }
-li img{
-   display:block;
-   margin:auto;
-   padding-bottom:5px;
-}
-#music album {
+#music {text-align:center}
+album {
    font-weight:bold;
    text-shadow:1px 1px #132537;
 }
-#music artist {
+album.long:hover{cursor:pointer}
+artist {
    text-shadow:1px 1px #614302;
    font-style:italic;
 }
+img.cover{
+   display:block;
+   margin:auto;
+   margin-bottom:5px;
+   border: 2px solid #C38705;}
+img.cover:hover{cursor:pointer}

@@ -20,7 +20,7 @@ async function rawData(fileIn = ""){
 function setSong(path){
 	console.log(path*2);
 	let idText = songpaths[path*2].split("-");
-	band.textContent = idText[0];
+	band.textContent = idText[0] + " - ";
 	song.textContent = idText[1];
 	player.src = songpaths[path*2+1];
 	if (player.style.display == "none") player.style.display = "inline-block";
