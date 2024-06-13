@@ -1,7 +1,7 @@
 window.addEventListener("load",setup);
 
 async function setup(){
-		songpaths = (await rawData("songpaths.txt")).split("\r\n");
+		songpaths = (await rawData("songpaths.txt")).split("\n");
 		caption = document.getElementById("songdata");
 		player = document.getElementById("player");
 		console.log(songpaths);
