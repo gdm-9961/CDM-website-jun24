@@ -1,19 +1,23 @@
 window.addEventListener("load",setup);
 
 async function setup(){
-		let tempdata = (await rawData("songpaths.tsv")).split("\n");
-		songdata = [];
-		for (let l = 0; l < tempdata.length; l++){
-			songdata.push(tempdata[l].split("\t"));
-		}
-		library = document.getElementById("covers");
-		band = document.getElementById("songartist");
-		song = document.getElementById("songtitle");
-		player = document.getElementById("player");
-		library.innerHTML = buildCovers();
-		console.log(songdata);
-		albums = document.getElementsByClassName('cover');
-		console.log(albums);
+	songdata = [];
+	parseData("songpaths.tsv");
+	library = document.getElementById("covers");
+	band = document.getElementById("songartist");
+	song = document.getElementById("songtitle");
+	player = document.getElementById("player");
+	library.innerHTML = buildCovers();
+	console.log(songdata);
+	albums = document.getElementsByClassName('cover');
+	console.log(albums);
+}
+
+function parseData(filepath){
+	let tempdata = (await rawData(filepath)).split("\n");
+	for (let l = 0; l < tempdata.length; l++){
+		songdata.push(tempdata[l].split("\t"));
+	}
 }
 
 function buildCovers(){
