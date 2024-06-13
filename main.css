@@ -33,7 +33,8 @@ a:hover {color:#D94D3B}
   width:1280px;
 }
 
-fade {color:#5477b3}
+fade, fade a:link, fade a:visited {color:#5477b3}
+fade a {text-shadow:1px 1px #132537}
 
 li {
 	list-style-type:none;
