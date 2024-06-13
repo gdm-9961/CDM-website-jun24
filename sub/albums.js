@@ -2,7 +2,7 @@ window.addEventListener("load",setup);
 
 async function setup(){
 	songdata = [];
-	parseData("songpaths.tsv");
+	await parseData("songpaths.tsv");
 	library = document.getElementById("covers");
 	band = document.getElementById("songartist");
 	song = document.getElementById("songtitle");
@@ -13,7 +13,7 @@ async function setup(){
 	console.log(albums);
 }
 
-function parseData(filepath){
+async function parseData(filepath){
 	let tempdata = (await rawData(filepath)).split("\n");
 	for (let l = 0; l < tempdata.length; l++){
 		songdata.push(tempdata[l].split("\t"));
