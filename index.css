@@ -1,0 +1,21 @@
+#about {
+	width:620px;
+	float:left;
+	margin:0;
+	padding:10px;
+}
+#about h2{margin-top:0}
+#about h3{font-weight:normal}
+#face {
+	float:left;
+	width:298px;
+	margin:0 15px 10px 0;
+	border: 2px solid #C38705;
+}
+#sublinks{
+	width:620px;
+	margin:0;
+	float:left;
+	padding:10px;
+}
+sh {text-shadow:1px 1px #132537}
