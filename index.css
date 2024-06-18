@@ -22,6 +22,12 @@
 	float:left;
 	padding:10px;
 }
+#sublinks ul{margin:2px}
+#sublinks li{
+	margin-top:0;
+	margin-bottom:55px;
+	font-size:125%;
+}
 
 sh {
 	text-shadow:1px 1px #132537;
