@@ -1,14 +1,15 @@
 #about {
-	width:620px;
+	width:619px;
 	float:left;
 	margin:0;
 	padding:10px;
+	border-right: 1px solid #C38705; 
 }
 #about h2{margin-top:0}
 #about h3{font-weight:normal}
 #face {
 	float:left;
-	width:298px;
+	width:240px;
 	margin:0 15px 10px 0;
 	border: 2px solid #C38705;
 }
@@ -18,4 +19,4 @@
 	float:left;
 	padding:10px;
 }
-sh {text-shadow:1px 1px #132537}
+sh {text-shadow:1px 1px #132537;font-weight:bold}
