@@ -7,6 +7,7 @@
 }
 #about h2{margin-top:0}
 #about h3{font-weight:normal}
+
 #face {
 	border-radius:150px;
 	float:left;
@@ -14,10 +15,26 @@
 	margin:0 15px 10px 0;
 	border: 6px double #C38705;
 }
+
 #sublinks{
 	width:620px;
 	margin:0;
 	float:left;
 	padding:10px;
 }
-sh {text-shadow:1px 1px #132537;font-weight:bold}
+
+sh {
+	text-shadow:1px 1px #132537;
+	font-weight:bold;
+}
+
+#grahamWR{
+	border:2px solid #C38705;
+	border-radius:20px;
+	display:inline-block;
+	padding:10px;
+}
+#grahamWR h4{
+	display:inline-block;
+	margin:0px;
+}
