@@ -47,6 +47,9 @@ img.cover:hover {cursor:pointer}
 	text-shadow:1px 1px #132537;
 }
 #projects p{
+	color:#5477b3;
 	margin:5px 0 10px 0;
+	text-shadow:1px 1px #132537;
 }
+#projects audio{margin-top:7px}
 .backlink{margin-bottom:10px}
