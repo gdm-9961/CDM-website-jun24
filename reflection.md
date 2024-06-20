@@ -8,5 +8,6 @@ Plus, I had an idea for how to use it to introduce an additional feature to the 
 ![](./reflection/albumshrevised.png)
 Next, I began working on the page for my own projects. Since I was already hosting and playing audio on the site, I decided that one of the one I'd include would be an Audacity mix I put together for fun a few weeks ago. I don't have much experience in mixing, so I wouldn't feel comfortable putting it forward as professional creative output, but fortunately that's not what the website is designed for. I held onto this casual approach while finally putting together the homepage, including jokes like the mailto default body text and "The Graham Webring" (which links to myself in both directions).
 ![](./reflection/mailto.png)
+
 Altogether, I'm satisfied with what I accomplished in this project, and I think the experience I gained in Javascript in particular will serve me well in the future.
 	
