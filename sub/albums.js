@@ -8,9 +8,7 @@ async function setup(){
 	song = document.getElementById("songtitle");
 	player = document.getElementById("player");
 	library.innerHTML = buildCovers();
-	console.log(songdata);
 	albums = document.getElementsByClassName('cover');
-	console.log(albums);
 }
 
 async function parseData(filepath){
