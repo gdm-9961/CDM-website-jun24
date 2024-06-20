@@ -4,7 +4,7 @@ body {
   font-family:Georgia, Times, TimesNewRoman, "Times New Roman", serif;
 }
 
-h1{
+h1 {
   text-align:center;
   text-shadow:1px 1px #132537;
 }
@@ -13,7 +13,7 @@ h1.trim {
   margin-left:15px;
   width:1250px;
 }
-h1.home{
+h1.home {
   font-size:32px;
   width:1280px; 
   margin-left:0px;
@@ -42,6 +42,6 @@ li {
 	font-weight:bold;
 	margin: .5em 0;
 }
-.backlink{
+.backlink {
 	float:left;
 }

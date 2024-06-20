@@ -4,7 +4,7 @@ h4 {
    font-size:1.2em;
    font-weight:normal;
 }
-ul{padding-left:0}
+ul {padding-left:0}
 li {
 	display:inline-block;
 	vertical-align:top;
@@ -19,7 +19,7 @@ album {
    font-weight:bold;
    text-shadow:1px 1px #132537;
 }
-album.long:hover{cursor:pointer}
+album.long:hover {cursor:pointer}
 artist {
    text-shadow:1px 1px #614302;
    font-style:italic;
@@ -32,7 +32,7 @@ img.cover {
 }
 img.cover:hover {cursor:pointer}
 
-#projects ul{width:100%; height:120px}
+#projects ul {width:100%; height:120px}
 #projects li {
 	float:left;
 	width:300px;
@@ -41,15 +41,15 @@ img.cover:hover {cursor:pointer}
 	border: 3px solid #C38705;
 	margin: 10px 10px 10px 132px;
 }
-#projects li.first{margin-left:5px}
+#projects li.first {margin-left:5px}
 #projects h3 {
 	margin: 5px 0;
 	text-shadow:1px 1px #132537;
 }
-#projects p{
+#projects p {
 	color:#5477b3;
 	margin:5px 0 10px 0;
 	text-shadow:1px 1px #132537;
 }
-#projects audio{margin-top:7px}
-.backlink{margin-bottom:10px}
+#projects audio {margin-top:7px}
+.backlink {margin-bottom:10px}
