@@ -3,7 +3,7 @@ window.addEventListener("load",setup);
 async function setup(){
 	songdata = [];
 	await parseData("songpaths.tsv");
-	library = document.getElementById("covers");
+	let library = document.getElementById("covers");
 	band = document.getElementById("songartist");
 	song = document.getElementById("songtitle");
 	player = document.getElementById("player");
