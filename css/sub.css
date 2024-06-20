@@ -41,7 +41,7 @@ img.cover:hover {cursor:pointer}
 	border: 3px solid #C38705;
 	margin: 10px 10px 10px 132px;
 }
-#projects li.first{margin-left:10px}
+#projects li.first{margin-left:5px}
 #projects h3 {
 	margin: 5px 0;
 	text-shadow:1px 1px #132537;
